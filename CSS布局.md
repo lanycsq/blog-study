@@ -20,7 +20,7 @@ CSS 的布局应该是 CSS 体系中的重中之重了，目前PC端的常用的
 场景：实现菜单导航栏
 效果图：
 
-![float](/img/float.png)
+![float](https://pic1.zhimg.com/80/v2-849d715b8584f58204420791a64d367c_720w.jpg)
 
 代码实现
 ```
@@ -166,7 +166,7 @@ CSS代码
 }
 ```
 如图：
-![flex-direction](/img/flex-direction.png)
+![flex-direction](https://pic2.zhimg.com/80/v2-e3500c0dc5d4750055b1058318310495_720w.jpg)
 
 flex-direction：row
 - main-axis（主轴）是row
@@ -186,15 +186,15 @@ flex-direction：column
 }
 ```
 - justify-content:flex-start
-  ![flex-start](/img/flex-content-start.png)
+  ![flex-start](https://pic4.zhimg.com/80/v2-05ad415dbc963929b910826b4b17ab4b_720w.jpg)
 - justify-content:flex-end
-  ![flex-end](/img/flex-content-end.png)
+  ![flex-end](https://pic2.zhimg.com/80/v2-9a699351b3c4bad1aaf431e9980e1b8d_720w.jpg)
 - justify-content:center
-  ![flex-center](/img/flex-content-center.png)
+  ![flex-center](https://pic2.zhimg.com/80/v2-eeb024a637ebcfb9375272b31129902d_720w.jpg)
 - justify-content:space-between
-  ![flex-between](/img/flex-content-between.png)
+  ![flex-between](https://pic2.zhimg.com/80/v2-eeb024a637ebcfb9375272b31129902d_720w.jpg)
 - justify-content:space-around
-  ![flex-around](/img/flex-content-around.png)
+  ![flex-around](https://pic4.zhimg.com/80/v2-c083c69587ab3cb5cc8c9c1039d39a5f_720w.jpg)
 
 #### flex-wrap 改变折行
 默认情况下，项目都排在一条线上。
@@ -205,11 +205,11 @@ flex-direction：column
 ```
 
 - flex-wrap:nowrap
-  ![flex-nowrap](/img/flex-nowrap.png)
+  ![flex-nowrap](https://pic4.zhimg.com/80/v2-cdc06eacc69562c1ddcb7eade0ea8907_720w.jpg)
 - flex-wrap:wrap
-  ![flex-wrap](/img/flex-wrap.png)
+  ![flex-wrap](https://pic3.zhimg.com/80/v2-d8075b803fa1002c8e2e3949ea1e004a_720w.jpg)
 - flex-wrap:wrap-reverse
-  ![flex-wrap-reverse](/img/flex-wrap-reverse.png)
+  ![flex-wrap-reverse](https://pic1.zhimg.com/80/v2-bcf5448023599991881f555113fac11c_720w.jpg)
 
 #### align-items 交叉轴的对齐方式
 ```
@@ -218,11 +218,11 @@ flex-direction：column
 }
 ```
 - align-items:flex-start
-  ![flex-align-start](/img/flex-align-start.png)
+  ![flex-align-start](https://pic2.zhimg.com/80/v2-bbd23cf532c5b62a601885a0134e29b1_720w.jpg)
 - align-items:flex-end
-  ![flex-align-end](/img/flex-align-end.png)
+  ![flex-align-end](https://pic4.zhimg.com/80/v2-cea58263aab3dfc527a4633ba9873793_720w.jpg)
 - align-items:center
-  ![flex-align-center](/img/flex-align-center.png)
+  ![flex-align-center](https://pic3.zhimg.com/80/v2-4bb7c5e34dce902b7893ec74dbf53bde_720w.jpg)
 
 flex item 属性
 
@@ -233,25 +233,25 @@ flex item 属性
     }
     如图，item2的order改为-1后，item2的顺序就排在了第一位。
 ```
-![flex-item-order](/img/flex-item-order.png)
+![flex-item-order](https://pic1.zhimg.com/80/v2-bd0c403e0f1e5ddf0dcfc3e32e8789c8_720w.jpg)
 
 2. item上加flex-grow,定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。
 
 原始状态
-![flex-item-shrink](/img/flex-align-grow-0.png)
+![flex-item-shrink](https://pic2.zhimg.com/80/v2-df90db2cf35b724080338a6647bbeb21_720w.jpg)
 添加以下代码后，只有item3没有变大，因为只有item3没有设置flex-grow：1。
 ```
 .item1,.item2,.item4,.item5{
     flex-grow: 1;
 } 
 ```
-![flex-item-shrink](/img/flex-align-grow-1.png)
+![flex-item-shrink](https://pic4.zhimg.com/80/v2-76f00be1f9a3b6dffcebf875d6314d27_720w.jpg)
 
 
 3. item上加flex-shrink 控制如何变瘦 （一般写flex-shrink：0 防止变瘦，默认是1）
 
 原始状态
-![flex-item-shrink](/img/flex-item-shrink.png)
+![flex-item-shrink](https://pic3.zhimg.com/80/v2-5acf0bdb80f27584b90c93a966db3bc2_720w.jpg)
 添加以下代码
 ```
 .item3{
@@ -259,7 +259,7 @@ flex item 属性
 }
 ```
 压缩后，可以看item3并没有变瘦
-![flex-item-shrink-0](/img/flex-item-shrink-0.png)
+![flex-item-shrink-0](https://pic2.zhimg.com/80/v2-aca2fa50dd11591c995a28d5d8b83d39_720w.jpg)
 
 4. item上加flex-basis 控制基准宽度 （默认是auto）
 5. align-self定制align-items
@@ -269,7 +269,7 @@ flex item 属性
       align-self:flex-end ;
   }
 ```
-![flex-align-slef](/img/flex-align-slef.png)
+![flex-align-slef](https://pic2.zhimg.com/80/v2-9b672b1f1759d13a7cac998cdcf48a31_720w.jpg)
 
 
  ## Grid布局（网格布局）
@@ -310,7 +310,7 @@ html代码
 }
 ```
 上面定义的是3行3列的网格，如图
-![grid](/img/grid.png)
+![grid](https://pic3.zhimg.com/80/v2-e2537440e019b5032bfc030c0d5dfdb6_720w.jpg)
 
 ### grid-row, grid-column、 grid-template-area和grid-area属性
 
@@ -337,7 +337,7 @@ gird-template-areas："header header header header"
 
 场景：实现系统首页布局
 效果图：
-![grid](/img/grid-rc.png)
+![grid](https://pic4.zhimg.com/80/v2-16809ebadd0eb1e4d88952023291af5f_720w.jpg)
 
 以下两组代码都可以得出以上面的效果图
 ```
